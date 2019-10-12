@@ -16,3 +16,4 @@ ActiveRecord::Base.establish_connection(
 # put the code to connect to the database here
 
 require_relative "../artist.rb"
+require_relative "../db/migrate/01_create_artists"
