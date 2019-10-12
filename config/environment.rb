@@ -29,4 +29,4 @@ ActiveRecord::Base.connection.execute(sql)
 
 require_relative "../artist.rb"
 require_relative "../db/migrate/01_create_artists"
-require_relative "../db/,igrate/02_add_favorite_food_to_artists.rb"
+require_relative "../db/migrate/02_add_favorite_food_to_artists.rb"
